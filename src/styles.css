@@ -1,0 +1,33 @@
+/* 清除页面默认的外边距和内边距 */
+body {
+  margin: 0;
+  padding: 0;
+}
+
+/* 游戏容器样式，利用flex布局实现内容居中 */
+#game-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-color: yellow;
+}
+
+/* 棋盘样式，添加边框 */
+canvas {
+  border: 1px solid black;
+}
+
+/* 游戏提示信息div样式 */
+#message {
+  margin-top: 10px;
+  text-align: center;
+}
+
+/* 重新开始按钮样式 */
+button {
+  margin-top: 10px;
+  padding: 5px 10px;
+  font-size: 16px;
+}
